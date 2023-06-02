@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+
+*{margin: 0;padding: 0}
+
+body {
+	font-family: "sans-serif", "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic"; 
+	-webkit-text-size-adjust: 100%;
+	min-width: 100%;
+}
+  
+a { text-decoration : none;
+    outline:none;
+	}
+
+ul, ol { list-style : none}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+	vertical-align: top;
+	}
+		
+.clear {
+	clear: both;
+}
+	
+/* clearfix */
+
+.clearfix:after {
+	content: ".";  /* 新しい要素を作る */
+	display: block;  /* ブロックレベル要素に */
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	overflow:hidden;
+    font-size:0.1em;
+    line-height:0;
+}
+.clearfix {
+	min-height: 1px;
+}
+* html .clearfix {
+	height: 1px;/*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
