@@ -140,7 +140,7 @@ header {
 	background-position: center;
 	background-size: cover;
 	width: 100%;
-	height: 123vw;
+	height: 130vw;
 	object-fit: cover;
 	box-sizing: border-box;
 	}
@@ -171,7 +171,7 @@ header {
 	}
 	
 .fv_time_r {
-	font-size: 3.2vw;
+	font-size: 3.4vw;
 	line-height: 1.35em;
 	color: #fff;
 	font-weight: bold;
@@ -187,11 +187,11 @@ header {
 	}
 	
 .fv_txt {
-	font-size: 3vw;
+	font-size: 3.4vw;
 	line-height: 1.6em;
 	color: #fff;
 	margin-bottom: 5vw;
-	width: 85vw;
+	width: 87vw;
 	}
 
 .formBtn a {
@@ -206,6 +206,7 @@ header {
 	font-size: 3.3vw;
 	font-weight: bold;
 	letter-spacing: 2px;
+	text-shadow: none;
 	}
 
 .formBtn a:hover {
@@ -227,7 +228,7 @@ header {
 	}
 	
 .contentColumn {
-	font-size: 3.15vw;
+	font-size: 3.3vw;
 	border-bottom: solid 1px #b6b6b6;
 	padding-bottom: 2vw;
 	margin-bottom: 2.8vw;
@@ -238,6 +239,10 @@ header {
 	font-size: 3.3vw;
 	line-height: 1.7em;
 	}
+	
+.content_list {}
+.content_list02 {}
+.special_box {margin-bottom: 4.5vw;}
 	
 .contentColumn p {font-weight: bold;}
 .contentColumn p span {font-weight:normal;}
@@ -277,6 +282,7 @@ header {
 .main_content_area {
 	width: 85vw;
 	margin: 0 auto;
+	padding: 7vw 0 0;
 	}
 	
 .main_content_area h2 {
@@ -325,7 +331,7 @@ header {
 	margin-left: 0.6rem; 
 	}
 
-.speaker_area {margin-bottom: 10vw;}
+.speaker_area {margin-bottom: 15vw;}
 	
 .speaker_space {
 	display:flex;
@@ -371,9 +377,11 @@ header {
 	}
 	
 .syozoku {
-	font-size: 3vw;
-	line-height: 1.2em;
+	font-size: 2.65vw;
+	line-height: 1.3em;
 	}
+	
+.syozoku_sp {margin-bottom: 5vw;}
 	
 .keireki {
 	font-size: 3.2vw;
@@ -399,10 +407,21 @@ header {
 	width: 47vw;
 	}
 	
+.panel_r02 {
+	float: left;
+	width: 47vw;
+	margin: 0 0 0 3vw;
+	}
+	
 .panel_name {
 	font-size: 3.6vw;
 	margin-bottom: 0.5vw;
 	font-weight: bold;
+	}
+	
+.panel_name span {
+	font-size: 3.3vw;
+	font-weight: normal;
 	}
 	
 .panel_syozoku {
@@ -424,6 +443,13 @@ header {
 	box-shadow: 0px 5px 10px #d3d3d4;
 	}
 	
+.special_area {
+	background-color: #fff;
+	padding: 30px 30px 10px;
+	margin-bottom: 15vw;
+	box-shadow: 0px 5px 10px #d3d3d4;
+	}
+	
 .session_area {
 	background-color: #fff;
 	padding: 30px;
@@ -438,7 +464,7 @@ header {
 	}
 	
 .panel_txt,.session_txt {
-	font-size: 3.2vw;
+	font-size: 3.4vw;
 	line-height: 1.6em;
 	border-bottom: solid 1px #000;
 	padding-bottom: 2vw;
@@ -888,6 +914,7 @@ header {
 	font-size: 1.9vw;
 	font-weight: bold;
 	letter-spacing: 2px;
+	text-shadow: none;
 	}
 
 .formBtn a:hover {
@@ -946,17 +973,22 @@ header {
 	}
 	
 .contentColumn {
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 	border-bottom: solid 1px #b6b6b6;
 	padding-bottom: 2vw;
 	margin-bottom: 2vw;
 	line-height: 1.8em;
 	}
+
 	
 .contentColumn02 {
 	font-size: 1.8vw;
 	line-height: 1.8em;
 	}
+	
+.content_list {}
+.content_list02 {}
+.special_box {margin-bottom: 2.5vw;}
 	
 .contentColumn p {font-weight: bold;}
 .contentColumn p span {font-weight:normal;}
@@ -1092,7 +1124,7 @@ header {
 	}
 	
 .syozoku {
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	line-height: 1.4em;
 	}
 	
@@ -1123,10 +1155,22 @@ header {
 	width: 23vw;
 	}
 	
+.panel_r02 {
+	float: left;
+	width: 23vw;
+	margin: 0 0 0 2vw;
+	}
+	
 .panel_name {
 	font-size: 2vw;
 	margin-bottom: 0.5vw;
 	font-weight: bold;
+	}
+	
+.panel_name span {
+	font-size: 1.8vw;
+	font-weight: normal;
+	margin-bottom: 7px;
 	}
 	
 .panel_syozoku {
@@ -1137,15 +1181,25 @@ header {
 .panel_area {
 	background-color: #fff;
 	padding: 30px 30px;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 	box-shadow: 0px 5px 10px #d3d3d4;
 	}
 	
 .panel_area02 {
 	background-color: #fff;
 	padding: 30px 30px;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 	box-shadow: 0px 5px 10px #d3d3d4;
+	}
+	
+.special_area {
+	background-color: #fff;
+	padding: 30px 30px;
+	margin-bottom: 70px;
+	box-shadow: 0px 5px 10px #d3d3d4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	}
 	
 .session_area {
@@ -1162,7 +1216,7 @@ header {
 	}
 	
 .panel_txt,.session_txt {
-	font-size: 1.45vw;
+	font-size: 1.8vw;
 	line-height: 1.6em;
 	border-bottom: solid 1px #000;
 	padding-bottom: 10px;
@@ -1171,7 +1225,6 @@ header {
 	}
 	
 .panel_txt span {
-	font-size: 1.45vw;
 	font-weight: bold;
 	}
 	
@@ -1254,11 +1307,11 @@ header {
 	
 .program_box {
 	background-color: #fff;
-	padding: 42px 62px;
+	padding: 40px;
 	margin: 0 auto 27px;
 	box-shadow: 0px 5px 10px #000;
 	border-radius: 10px;
-	width: 68vw;
+	width: 72vw;
 	}
 	
 .program_box p {
@@ -1272,9 +1325,9 @@ header {
 	}
 
 .program_box dt {
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 	width: 7vw;
-	height: 25vw;
+	height: 28vw;
 	float: left;
 	padding-bottom: 20px;
 	border-bottom: solid 1px #989898;
@@ -1283,9 +1336,9 @@ header {
 	}
 	
 .program_box dd {
-	font-size: 1.6vw;
-	width: 61vw;
-	height: 25vw;
+	font-size: 1.8vw;
+	width: 65vw;
+	height: 28vw;
 	float: left;
 	padding-bottom: 20px;
 	border-bottom: solid 1px #989898;
@@ -1293,7 +1346,7 @@ header {
 	}
 	
 .program_box dd.dt01 p {
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 	font-weight: normal;
 	color: #000;
 	text-align: left;
@@ -1302,12 +1355,12 @@ header {
 	}
 	
 .program_box dt.dt02,.program_box dd.dt02 {
-	height: 9vw;
+	height: 10.5vw;
 	padding-bottom: 4px;
 	}
 .program_box dd.dt02 p {
 	padding-left: 1.6vw;
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 	color: #000;
 	font-weight: normal;
 	text-align: left;
@@ -1635,6 +1688,7 @@ header {
 	font-size: 19px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	text-shadow: none;
 	}
 
 .formBtn a:hover {
@@ -1704,7 +1758,14 @@ header {
 .contentColumn02 {
 	font-size: 18px;
 	line-height: 2em;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
 	}
+	
+.content_list {width: 150px;}
+.content_list02 {width: 750px;}
+.special_box {margin-bottom: 40px;}
 	
 .contentColumn p {font-weight: bold;}
 .contentColumn p span {font-weight:normal;}
@@ -1833,8 +1894,8 @@ header {
 	}
 	
 .syozoku {
-	font-size: 15px;
-	line-height: 1.5em;
+	font-size: 13px;
+	line-height: 1.4em;
 	}
 	
 .keireki {
@@ -1864,9 +1925,21 @@ header {
 	width: 280px;
 	}
 	
+.panel_r02 {
+	float: left;
+	width: 200px;
+	margin: 0 0 0 25px;
+	}
+	
 .panel_name {
 	font-size: 22px;
 	font-weight: bold;
+	margin-bottom: 7px;
+	}
+	
+.panel_name span {
+	font-size: 18px;
+	font-weight: normal;
 	margin-bottom: 7px;
 	}
 	
