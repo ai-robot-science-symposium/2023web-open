@@ -1914,7 +1914,11 @@ header {
 	width: 445px;
 	float: right;
 	}
-	
+.panel_box03 {
+	width: 445px;
+	float: left;
+	}
+		
 .panel_img {
 	width: 145px;
 	float: left;
