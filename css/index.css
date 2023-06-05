@@ -1327,7 +1327,7 @@ header {
 .program_box dt {
 	font-size: 1.8vw;
 	width: 7vw;
-	height: 28vw;
+	height: 35vw;
 	float: left;
 	padding-bottom: 20px;
 	border-bottom: solid 1px #989898;
@@ -1338,7 +1338,7 @@ header {
 .program_box dd {
 	font-size: 1.8vw;
 	width: 65vw;
-	height: 28vw;
+	height: 35vw;
 	float: left;
 	padding-bottom: 20px;
 	border-bottom: solid 1px #989898;
