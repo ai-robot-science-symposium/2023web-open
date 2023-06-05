@@ -367,7 +367,7 @@ header {
 	
 .name {
 	font-size: 3.6vw;
-	margin-bottom: 0.5vw;
+	margin: 0.5vw 0;
 	font-weight: bold;
 	}
 	
@@ -388,6 +388,8 @@ header {
 	line-height: 1.45em;
 	clear: both;
 	}
+	
+.special_box {margin-bottom: 0px;}
 	
 .panel_box {
 	margin-bottom: 5vw;
@@ -443,13 +445,6 @@ header {
 	box-shadow: 0px 5px 10px #d3d3d4;
 	}
 	
-.special_area {
-	background-color: #fff;
-	padding: 30px 30px 10px;
-	margin-bottom: 15vw;
-	box-shadow: 0px 5px 10px #d3d3d4;
-	}
-	
 .session_area {
 	background-color: #fff;
 	padding: 30px;
@@ -472,10 +467,24 @@ header {
 	font-weight: normal;
 	}
 	
-.panel_txt span {
+.panel_txt span,.panel_txt_noline span {
 	font-size: 3.3vw;
 	font-weight: bold;
 	}
+	
+.panel_txt_noline {
+	font-size: 3.4vw;
+	line-height: 1.6em;
+	margin-bottom: 5vw;
+	font-weight: normal;
+	}
+	
+.panel_punctuation {
+	border-bottom: solid 1px #000;
+	padding-bottom: 4vw;
+	margin-bottom: 5vw;
+	}
+	
 	
 .panel_cont {padding: 0vw 0 3vw;}
 .session_cont {padding: 2.5vw 0 0;}
@@ -494,6 +503,13 @@ header {
 	
 .session_list li {
 	line-height: 1.2em;
+	}
+	
+.session_list02 {
+	}
+
+.session_etc {
+	font-size: 3.3vw;
 	}
 	
 .title_space {
@@ -617,7 +633,7 @@ header {
 	text-align: center;
 	padding-bottom: 2vw;
 	border-bottom: solid 2px #989898;
-	margin-bottom: 4vw;
+	margin-bottom: 2.5vw;
 	}
 	
 .intent h4 span {
@@ -1083,7 +1099,7 @@ header {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 35vw;
-	height: 32vw;
+	height: 35vw;
 	background-color: #fff;
 	padding: 20px;
 	margin-bottom: 3vw;
@@ -1114,7 +1130,7 @@ header {
 	
 .name {
 	font-size: 2vw;
-	margin-bottom: 0.5vw;
+	margin: 0.5vw 0;
 	font-weight: bold;
 	}
 	
@@ -1132,8 +1148,11 @@ header {
 	font-size: 1.5vw;
 	line-height: 1.4em;
 	clear: both;
-	height: 13vw
+	height: 13vw;
+	margin: 1vw 0 0;
 	}
+	
+.special_box {margin-bottom: 0px;}
 	
 .panel_box {
 	width: 37vw;
@@ -1192,16 +1211,6 @@ header {
 	box-shadow: 0px 5px 10px #d3d3d4;
 	}
 	
-.special_area {
-	background-color: #fff;
-	padding: 30px 30px;
-	margin-bottom: 70px;
-	box-shadow: 0px 5px 10px #d3d3d4;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	}
-	
 .session_area {
 	background-color: #fff;
 	padding: 30px 30px 15px;
@@ -1224,33 +1233,53 @@ header {
 	font-weight: normal;
 	}
 	
-.panel_txt span {
+.panel_txt span,.panel_txt_noline span {
 	font-weight: bold;
+	}
+	
+.panel_txt_noline {
+	font-size: 1.8vw;
+	line-height: 1.6em;
+	margin-bottom: 20px;
+	font-weight: normal;
+	}
+	
+.panel_punctuation {
+	border-bottom: solid 1px #000;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
 	}
 	
 .panel_cont {padding: 20px 0 15px;}
 .session_cont {padding: 20px 0 0;}
 	
 .session_box {
-	float: left;
-	width: 37vw;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 	}
-	
-.session_box02 {
-	float: right;
-	width: 37vw;
-	}
-	
+
 .session_list {
 	border-bottom: solid 1px #000;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
+	width: 270px;
 	}
 	
 .session_list li {
 	line-height: 1.2em;
 	}
 	
+.session_list02 {
+	width: 270px;
+	}
+
+.session_etc {
+	font-size: 1.8vw;
+	margin-bottom: 30px;
+	}
+
 .title_space {
 	height: 5vw;
 	font-size: 1.7vw;
@@ -1327,7 +1356,7 @@ header {
 .program_box dt {
 	font-size: 1.8vw;
 	width: 7vw;
-	height: 35vw;
+	height: 30vw;
 	float: left;
 	padding-bottom: 20px;
 	border-bottom: solid 1px #989898;
@@ -1336,9 +1365,9 @@ header {
 	}
 	
 .program_box dd {
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 	width: 65vw;
-	height: 35vw;
+	height: 30vw;
 	float: left;
 	padding-bottom: 20px;
 	border-bottom: solid 1px #989898;
@@ -1389,7 +1418,7 @@ header {
 .intent p {
 	font-size: 1.55vw;
 	line-height: 2.2em;
-	margin-bottom: 4vw;
+	margin-bottom: 2vw;
 	}
 	
 .pdfBtn a {
@@ -1763,10 +1792,6 @@ header {
 	justify-content: space-between;
 	}
 	
-.content_list {width: 150px;}
-.content_list02 {width: 750px;}
-.special_box {margin-bottom: 40px;}
-	
 .contentColumn p {font-weight: bold;}
 .contentColumn p span {font-weight:normal;}
 	
@@ -1871,7 +1896,7 @@ header {
 .speaker_space_img {
 	width: 145px;
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	}
 	
 .speaker_r {
@@ -1890,7 +1915,7 @@ header {
 .name {
 	font-size: 22px;
 	font-weight: bold;
-	margin-bottom: 7px;
+	margin: 7px 0;
 	}
 	
 .syozoku {
@@ -1905,6 +1930,8 @@ header {
 	height: 110px;
 	}
 	
+.special_box {margin-bottom: 0px;}
+	
 .panel_box {
 	width: 445px;
 	float: left;
@@ -1914,11 +1941,7 @@ header {
 	width: 445px;
 	float: right;
 	}
-.panel_box03 {
-	width: 445px;
-	float: left;
-	}
-		
+	
 .panel_img {
 	width: 145px;
 	float: left;
@@ -1931,19 +1954,13 @@ header {
 	
 .panel_r02 {
 	float: left;
-	width: 200px;
-	margin: 0 0 0 25px;
+	width: 280px;
+	margin: 0 0 0 20px;
 	}
 	
 .panel_name {
 	font-size: 22px;
 	font-weight: bold;
-	margin-bottom: 7px;
-	}
-	
-.panel_name span {
-	font-size: 18px;
-	font-weight: normal;
 	margin-bottom: 7px;
 	}
 	
@@ -1981,7 +1998,20 @@ header {
 	font-weight: normal;
 	}
 	
-.panel_txt span {
+.panel_txt_noline {
+	font-size: 16px;
+	line-height: 1.7em;
+	margin-bottom: 25px;
+	font-weight: normal;
+	}
+	
+.panel_punctuation {
+	border-bottom: solid 1px #000;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	}
+	
+.panel_txt span,.panel_txt_noline span {
 	font-size: 16px;
 	font-weight: bold;
 	}
@@ -1990,19 +2020,21 @@ header {
 .session_cont {padding: 20px 0 0;}
 	
 .session_box {
-	float: left;
-	width: 450px;
-	}
-	
-.session_box02 {
-	float: right;
-	width: 450px;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 	}
 	
 .session_list {
 	border-bottom: solid 1px #000;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
+	width: 450px;
+	}
+	
+.session_list02 {
+	width: 450px;
 	}
 	
 .session_list li {
@@ -2021,6 +2053,8 @@ header {
 	margin: 7px 0;
 	font-weight: bold;
 	}
+	
+.session_etc {font-size: 18px;}
 	
 .program {
 	width: 100%;
@@ -2081,7 +2115,7 @@ header {
 .program_box dt {
 	font-size: 17px;
 	width: 80px;
-	height: 270px;
+	height: 320px;
 	float: left;
 	border-bottom: solid 1px #989898;
 	margin-bottom: 20px;
@@ -2091,7 +2125,7 @@ header {
 .program_box dd {
 	font-size: 17px;
 	width: 722px;
-	height: 270px;
+	height: 320px;
 	float: left;
 	border-bottom: solid 1px #989898;
 	}
@@ -2118,6 +2152,10 @@ header {
 	border: none;
 	}
 	
+program_box dd.dt02 p.dd02 {
+	float: left;
+	}
+	
 .intent {
 	width: 1100px;
 	margin: 0 auto;
@@ -2140,7 +2178,7 @@ header {
 .intent p {
 	font-size: 18px;
 	line-height: 2em;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	}
 	
 .pdfBtn a {
