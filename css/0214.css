@@ -656,7 +656,7 @@
         color: #fff;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 800;
-        width: 33vw;
+        width: 42vw;
         margin: 0 auto 2vw;;
         padding: 5px 0 6px;
         }
@@ -749,6 +749,7 @@
         }
         
     .contentColumn dt{
+        font-weight: bold;
         }
         
     .contentColumn dd {
@@ -1254,7 +1255,7 @@
         border-top: 2px solid #fff;
         border-bottom: 2px solid #fff;
         text-align: center;
-        font-size: 26px;
+        font-size: 24px;
         color: #fff;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 800;
@@ -1491,7 +1492,9 @@
         line-height: 1.4em;
         }
         
-    .schedule {margin-bottom: 50px;}
+    .schedule {
+
+    }
         
         /* プログラム表のスタイル設定 */
     .schedule {
@@ -1525,6 +1528,10 @@
     .schedule dd {
         float: left;
         }
+    
+    .schedule_Btn{
+        margin-bottom: 60px;
+    }
             
     .schedule_Btn a {
         width: 531px;
