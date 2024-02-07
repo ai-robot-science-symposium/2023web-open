@@ -224,7 +224,19 @@
     .speaker02:after {
         margin-left: 0.6rem; 
         }
-    
+    .speaker_area_k {
+        width: 85vw;
+        margin: 0 auto 13vw;
+        }
+        
+    .speaker_space_k {
+        background-color: #fff;
+        padding: 2.3vw;
+        margin-bottom: 3vw;
+        box-shadow: 0px 5px 10px #d3d3d4;
+        color: #000;
+        }
+
     .speaker_area {
         width: 85vw;
         margin: 0 auto 13vw;
@@ -246,7 +258,7 @@
         
     .speaker_r {
         float: left;
-        width: 48vw;
+        width: 80vw;
         }
         
     .lead {
@@ -818,9 +830,29 @@
     .speaker02:after {
         margin-left: 2rem; 
         }
-    
+    .speaker_area_k {
+        width: 78vw;
+        margin: 0 auto;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+        
+    .speaker_space_k {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 35vw;
+        background-color: #fff;
+        padding: 10px 10px 7px;
+        margin-bottom: 3vw;
+        box-shadow: 0px 5px 10px #d3d3d4;
+        border: 4px solid #fff;
+        color: #000;
+        } 
+
     .speaker_area {
-        width: 85vw;
+        width: 78vw;
         margin: 0 auto;
         display:flex;
         justify-content: space-between;
@@ -831,7 +863,7 @@
         display:flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 37.5vw;
+        width: 30vw;
         background-color: #fff;
         padding: 10px 10px 7px;
         margin-bottom: 3vw;
@@ -848,7 +880,7 @@
         
     .speaker_r {
         float: right;
-        width: 23.5vw;
+        width: 30vw;
         }
         
     .lead {
@@ -1483,7 +1515,7 @@
         }
 
     .speaker_r {
-        width: 285px;
+        width: 380px;
         }
         
     .speaker_title {
