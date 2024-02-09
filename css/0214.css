@@ -1225,12 +1225,12 @@
     }
     
     
-    @media screen and (min-width: 1025px){
+    @media print, screen and (min-width: 1025px){
     /*
     ** pc
     ============== ============== ============== ============== ============== ============== ============== */
     /* header /////////////////// */
-        
+
     header {
         width: 100%;
         display: flex;
@@ -1883,6 +1883,36 @@
     }
         
     .br_sp {display: none;}
-        
+    
+    @media print {
+        body {
+            font-size: 10pt;
+            color: #000;
+            background: #fff !important;
+            line-height: 1.5;
+        }
+        img, table {
+            max-width: 100% !important;
+            page-break-inside: avoid;
+        }
+        a[href]:after {
+            content: " (" attr(href) ")" !important;
+            font-size: 10pt;
+        }
+        h1, h2, h3, h4, h5, h6, p, li {
+            page-break-inside: avoid;
+        }
+        table, thead, tbody, tfoot, tr, td, th {
+            page-break-inside: avoid !important;
+        }
+        tr, td, th {
+            page-break-inside: avoid !important;
+            page-break-after: auto !important;
+        }
+        .important {
+            font-weight: bold;
+            color: #000 !important;
+        }
+        }
         
     }
