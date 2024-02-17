@@ -1224,13 +1224,12 @@
     
     }
     
-    
     @media print, screen and (min-width: 1025px){
     /*
     ** pc
     ============== ============== ============== ============== ============== ============== ============== */
     /* header /////////////////// */
-
+    
     header {
         width: 100%;
         display: flex;
@@ -1297,7 +1296,7 @@
         }
         
     .reportBtn a {
-        width: 400px;
+        width: 470px;
         height: 80px;
         color: #000;
         background-color: #fff;
@@ -1470,7 +1469,7 @@
     .speaker02:after {
         margin-left: 2rem; 
         }
-        
+     
     .speaker_area_k {
         width: 940px;
         margin: 0 auto;
@@ -1880,6 +1879,23 @@
      a:hover.pagetop .pagetop__arrow {
         border-top: 3px solid #5a35e2;
         border-right: 3px solid #5a35e2;
+    }
+
+   .contentColumn, .main_content, .detail_area {
+        page-break-after: always; /* 要素の後にページ区切りを挿入 */
+    }
+
+    .content_img, .speaker_area, .panel_box {
+        page-break-inside: avoid; /* 要素内でのページ区切りを避ける */
+    }
+
+    table, img {
+        page-break-inside: avoid; /* 表や画像がページの途中で切れないようにする */
+    }
+
+    /* ページの末尾でのみ表示されるべき要素（例：footer） */
+    footer {
+        page-break-before: always; /* 要素の前にページ区切りを挿入 */
     }
         
     .br_sp {display: none;}
