@@ -1926,6 +1926,7 @@
         }
         
     .SponsoredColumn p {font-weight: bold;}
+    .SponsoredColumn p span {font-weight: normal;}
     .contentColumn p span {font-weight:normal;}
         
     .SponsoredColumn dt{
