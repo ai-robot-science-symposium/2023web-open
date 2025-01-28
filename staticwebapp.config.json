@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://ai-robot-science.com",
+      "statusCode": 301
+    }
+  ]
+}
